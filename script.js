@@ -88,12 +88,37 @@
 // }
 
 // Array
-const arr = [1, 2, 3, true]
-// const arr2 = new Array(5)
-const arr2 = Array.from("hello")
-console.log(arr2);
-console.log(arr2[0]);
+// const arr = [1, 2, 3, true]
+// // const arr2 = new Array(5)
+// const arr2 = Array.from("hello")
+// console.log(arr2);
+// console.log(arr2[0]);
 
-arr2[0] = "y"
-console.log(arr2)
-console.log(arr2[arr2.length -1])
+// arr2[0] = "y"
+// console.log(arr2)
+// console.log(arr2[arr2.length -1])
+
+const arr = [1, 2, 3, true]
+const arr2 = Array.from("hello")
+
+arr2.push(4)
+// arr2.pop()
+// arr2.pop()
+// arr2.pop()
+// arr2.shift()
+// arr2.unshift("new")
+
+
+// console.log(arr2.indexOf("o"))
+// console.log(arr2.lastIndexOf("l"))
+// console.log(arr2.includes("l"))
+
+// const arr3 = arr.concat(arr2)
+// console.log(arr3)
+
+// const str = arr.join("|")
+// console.log(str);
+
+const arr3 = arr.splice(1,3)
+console.log(arr3)
+console.log(arr)
