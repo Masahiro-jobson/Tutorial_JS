@@ -38,6 +38,51 @@
 
 
 // Arthimetic notation
-const x = 6
-const y = true
-console.log(x +y)
+// const x = "2345px"
+// const y = 2
+// // console.log(parseInt(x) - y)
+// console.log(x.toString() + y)
+
+// Comparison operator
+// === is strict operator
+// console.log("1" == 1)
+// console.log("1" === 1)
+
+// Logical Operator
+// console.log(true&&false)
+// console.log(true||false)
+// console.log(!(true||false))
+// console.log (""||true)
+// console.log (""||false)
+// console.log (""||"hello")
+// console.log (true && "hello")
+// console.log (false && "hello")
+// console.log (false && "hello")
+// console.log (Boolean("hello") && Boolean(2))
+
+// Conditional Statements
+// if (true)
+//     console.log('hello world')
+// else{
+//     console.log("run")
+//     console.log("")   
+// }
+
+// const cond = false ? "okay cool" : "no"
+// console.log(cond)
+
+// Switch Statement
+const value = 6
+
+switch(value){
+    case 3:
+        console.log("3 is cool")
+        break;
+    case 4:
+        console.log("4 is not cool")
+        break;
+    default:
+        console.log("okay")
+        break;
+
+}
