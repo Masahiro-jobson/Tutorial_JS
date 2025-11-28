@@ -72,17 +72,28 @@
 // console.log(cond)
 
 // Switch Statement
-const value = 6
+// const value = 6
 
-switch(value){
-    case 3:
-        console.log("3 is cool")
-        break;
-    case 4:
-        console.log("4 is not cool")
-        break;
-    default:
-        console.log("okay")
-        break;
+// switch(value){
+//     case 3:
+//         console.log("3 is cool")
+//         break;
+//     case 4:
+//         console.log("4 is not cool")
+//         break;
+//     default:
+//         console.log("okay")
+//         break;
 
-}
+// }
+
+// Array
+const arr = [1, 2, 3, true]
+// const arr2 = new Array(5)
+const arr2 = Array.from("hello")
+console.log(arr2);
+console.log(arr2[0]);
+
+arr2[0] = "y"
+console.log(arr2)
+console.log(arr2[arr2.length -1])
