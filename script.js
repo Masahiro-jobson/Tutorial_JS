@@ -220,4 +220,13 @@
 
 // const arr = Array.from(myMap)
 
-// 
+//Error Handling (Try and catch, finally) 
+try{
+    riskyFunction();
+} catch(error){
+    console.error("An error occurred: ", error.message);
+} finally{
+    console.log("Cleanup code can go here");
+}
+
+throw new Error("this is not good !")
